@@ -6,6 +6,10 @@
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
+# Overlays
+PRODUCT_PACKAGES += \
+    WifiOverlayVenus
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
