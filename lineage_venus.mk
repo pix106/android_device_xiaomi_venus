@@ -17,3 +17,7 @@ PRODUCT_MODEL := M2011K2G
 PRODUCT_NAME := lineage_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DeviceProduct=venus \
+    SystemName=venus_global
