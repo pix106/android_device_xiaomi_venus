@@ -14,3 +14,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Sku properties
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sku/build_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/build_CN.prop
