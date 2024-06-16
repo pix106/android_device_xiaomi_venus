@@ -13,7 +13,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := M2011K2G
+PRODUCT_MODEL := Mi 11
 PRODUCT_NAME := lineage_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
