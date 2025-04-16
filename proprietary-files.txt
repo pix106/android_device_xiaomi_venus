@@ -1,4 +1,4 @@
-# These proprietary files are extracted from venus OS1.0.10.0.UKBMIXM, note the pinned blobs
+# All unpinned blobs below are extracted from miui_VENUSEEAGlobal_OS1.0.12.0.UKBEUXM_3041f13a9f_14.0
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
