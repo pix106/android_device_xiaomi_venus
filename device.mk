@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 # Inherit from miuicamera-venus
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-venus/device.mk)
 
+# Camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     libudfpshandler
